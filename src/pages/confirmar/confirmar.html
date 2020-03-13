@@ -1,0 +1,52 @@
+<ion-content padding>
+
+
+
+  <ion-card>
+    <ion-card-header>
+      <b>Confirmacao de Presenca</b>
+      <hr>
+    </ion-card-header>
+    <ion-card-content>
+      <p text-justify>Viajamos por lugares incriveis, conhecemos pessoas maravilhosas, mas esse dia nao seria
+        incrivel se voce nao estivesse nele.
+
+      </p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-content>
+      <p text-justify><b>Te esperamos para realizar esse sonho conosco!</b></p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-content>
+    <ion-list>
+
+      <ion-item>
+        <ion-label floating><p text-justify>Nome Completo</p></ion-label>
+        <ion-input [(ngModel)]="product.nome" type="text" value=""></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label floating><p text-justify>Telefone</p></ion-label>
+        <ion-input [(ngModel)]="product.telefone" type="number" value=""></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label floating><p text-justify>Quantidade de Pessoas</p></ion-label>
+        <ion-input [(ngModel)]="product.quantidade" type="number" value=""></ion-input>
+      </ion-item>
+
+    </ion-list>
+  </ion-card-content>
+
+  </ion-card>
+
+  <div padding>
+    <button ion-button clear  (click)="createProduct();"><p>Confirmar</p></button>
+  </div> 
+
+</ion-content>

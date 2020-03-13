@@ -1,0 +1,24 @@
+page-home {
+    div.img{
+        position: relative; 
+        width: 100%; 
+        height: 100%
+    }
+
+div.img > img{
+    width:100%; 
+    height: 100%
+}
+div.img > div{
+    position: absolute; 
+    left: 50%; 
+    margin-left: -120px; 
+    top: 50%; 
+    margin-top: -75px;
+    width:50%; 
+    height: 50%;}
+
+.scroll-content{
+    padding: 0px !important;
+}
+}
